@@ -2,11 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid black; */
 }
 
 body {
-  width: 50rem;
+  width: 45rem;
   margin: auto;
   font-family: Helvetica, sans-serif;
   background-color: #bfab98;
@@ -32,6 +31,13 @@ h3 {
 hr {
   width: 30%;
   border: 1px solid black;
+}
+
+footer {
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .navbar {

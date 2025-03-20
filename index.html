@@ -9,14 +9,14 @@
       <nav>
         <ul class="navbar">
           <li id="title"><h1>Generic Resume</h1></li>
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Projects</a></li>
+          <li><a href="#">Cover Letter</a></li>
+          <li><a href="#">Goals</a></li>
           <li><a href="#">Misc</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <div id="date">Today's date:</div>
+      <article><p id="date">Today's date:</p></article>
       <h2>Work Experience</h2>
       <hr />
     </main>
@@ -34,7 +34,17 @@
       </ul>
     </section>
 
-    <footer></footer>
-    <article></article>
+    <footer>© 1989 by Tyler Cave</footer>
+    <script>
+      const dateContainer = document.getElementById('date');
+      const date = new Date();
+      const month = date.toLocaleString('default', { month: 'long' });
+      const today = date.toLocaleString('default', { weekday: 'long' });
+      const day = date.getDate();
+
+      dateContainer.textContent = `Today is ${today}, ${month} ${day}`;
+
+      console.log('HELLLOOOOOOOO!!!');
+    </script>
   </body>
 </html>
