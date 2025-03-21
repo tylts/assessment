@@ -72,6 +72,20 @@ td {
   margin-top: 2rem;
 }
 
+.attribute {
+  font-size: 0.8rem;
+}
+
+.contact-form {
+  padding: 2rem;
+  margin-bottom: 4rem;
+  border: 1px solid black;
+}
+
+.form {
+  padding: 4px;
+}
+
 #title {
   font-size: 1.5rem;
   margin-right: auto;
@@ -80,4 +94,9 @@ td {
 
 #date {
   padding-bottom: 3rem;
+}
+
+#dog {
+  width: 40%;
+  height: 40%;
 }

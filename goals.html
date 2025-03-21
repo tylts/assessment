@@ -1,20 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Business Goals</title>
+    <title>Career Goals</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
         <ul class="navbar">
-          <li id="title"><h1>Business Goals</h1></li>
+          <li id="title"><h1>Career Goals</h1></li>
           <li><a href="/index.html">Resume</a></li>
           <li><a href="/coverletter.html">Cover Letter</a></li>
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <p>My goal is to get a job like this:</p>
+      <br />
+      <img id="dog" src="/dogworking.jpg" alt="Dog at a desk" />
+      <p class="attribute">
+        Photo by
+        <a
+          href="https://unsplash.com/@abject?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          >benjamin lehman</a
+        >
+        on
+        <a
+          href="https://unsplash.com/photos/a-dog-sitting-in-a-chair-with-a-computer-mouse-gqFST3JuyzQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          >Unsplash</a
+        >
+      </p>
+      <br />
+      <p>Or like this:</p>
+      <video width="320" height="240" controls>
+        <source
+          src="https://videos.pexels.com/video-files/5971107/5971107-uhd_2160_4096_25fps.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <p class="attribute">
+        Video Kaboompics.com from Pexels:
+        <a
+          href="https://www.pexels.com/video/man-and-woman-at-a-co-working-place-with-dog-5971107/"
+          >https://www.pexels.com/video/man-and-woman-at-a-co-working-place-with-dog-5971107/</a
+        >
+      </p>
+      <br />
+      <p>Here is a song that reminds me of work:</p>
+      <audio src="worksong.mp3" controls></audio>
+      <p class="attribute">
+        Happy Upbeat Corporate | WORK by Alex-Productions | https://onsound.eu/
+      </p>
+      <br />
+      <form
+        action="https://wp.zybooks.com/form-viewer.php"
+        method="get"
+        class="contact-form"
+      >
+        <p class="form">
+          If you have a job like this for me, please contact me:
+        </p>
+        <br />
+        <div class="form">
+          <label for="first-name">First name:</label>
+          <input type="text" name="first-name" id="first-name" />
+        </div>
+        <div class="form">
+          <label for="last-name">Last name:</label>
+          <input type="text" name="last-name" id="last-name" />
+        </div>
+        <div class="form">
+          <label for="company-name">Company name:</label>
+          <input type="text" name="company-name" id="company-name" />
+        </div>
+        <div class="form">
+          <label for="email">Email address:</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="form">
+          <label for="phone">Phone number:</label>
+          <input type="phone" name="phone" id="phone" />
+        </div>
+        <div class="form">
+          <label for="message">Message:</label>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <div class="form">
+          <fieldset>
+            <legend>Please select the best time to reach you:</legend>
+            <div>
+              <input type="radio" name="time" id="am" value="am" />
+              <label for="am">A.M.</label>
+            </div>
+            <div>
+              <input type="radio" name="time" id="pm" value="pm" />
+              <label for="pm">P.M.</label>
+            </div>
+            <div>
+              <input type="radio" name="time" id="any" value="any" />
+              <label for="any">Anytime</label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="form">
+          <label for="contact-type">How would you like to be contacted?</label>
+          <div>
+            <select name="contact-type" id="contact-type-select">
+              <option value="">--Choose an option--</option>
+              <option value="phone">Phone</option>
+              <option value="email">Email</option>
+              <option value="text">Text</option>
+            </select>
+          </div>
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
     <footer>© 1989 by Tyler Cave</footer>
   </body>
 </html>
